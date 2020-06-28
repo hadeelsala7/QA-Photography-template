@@ -34,6 +34,26 @@ h2 {
 p {
     color: #212020;
 }
+@media screen and (max-width: 770px){
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
 .text--white {
     color: #fff!important;
 }
@@ -66,8 +86,8 @@ p {
     }
 
     50% {
-        -webkit-transform: translateX(3rem);
-        transform: translateX(3rem);
+        -webkit-transform: translateX(3.5rem);
+        transform: translateX(3.5rem);
     }
 
     100% {
@@ -101,6 +121,26 @@ p {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 770px) {
+    .btn-accent {
+        padding: .75rem 1.75rem;
+        font-size: 1.5rem;
+    }
+    .btn-sm {
+        padding: .5rem 1.75rem;
+    }
+    .underline {
+        width: 7.5rem;
+        height: 7px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .btn-accent {
+        padding: .65rem 1.75rem;
+        font-size: 1.35rem;
+    }
+}
+
 /* Links */
 a,
 a:hover,
@@ -120,9 +160,9 @@ a:focus {
 .logo {
     float: left;
     color: #F3D900;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
-    margin: 1.75rem 0;
+    margin: 1rem 0;
     letter-spacing: -0.055em;
 }
 
@@ -144,12 +184,13 @@ a:focus {
 .main-nav_link {
     color: #fff;
     display: block;
-    padding: .75rem 1.5rem;
-    margin: 1rem 0;
-    font-size: 20px;
+    padding: .5rem 1rem;
+    margin: .75rem 0;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-transform: uppercase;
+    text-align: right;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
@@ -221,7 +262,17 @@ a:focus {
     }
     .menu-icon {
         display: none;
-    }    
+    } 
+    .logo {
+        font-size: 30px;
+        margin: 1.75rem 0;
+    }
+    .main-nav_link {
+        padding: .75rem 1.5rem;
+        margin: 1rem 0;
+        font-size: 20px;
+        line-height: 2rem;
+    }   
 }
 /* Navigation styles end */
 /* Hero section start */
@@ -255,6 +306,13 @@ a:focus {
 
 .hero_content p {
     color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .hero_content {
+        left: 5%;
+        right: 5%;
+    }
 }
 /* Hero section end */
 /* About section */
@@ -293,6 +351,26 @@ a:focus {
 .collection_img {
     border-radius: 5px;
 }
+
+@media screen and (max-width: 770px) {
+    .nav-link {
+        font-size: 16px;
+        padding: 18px 28px!important;
+    }
+    .nav--black {
+        padding-left: 4%!important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-link {
+        font-size: 14px;
+        padding: 12px 20px!important;
+    }
+    .nav--black {
+        padding-left: 4%!important;
+    }
+}
 /* Collection section end */
 
 /* Jumbotron section start */
@@ -317,6 +395,18 @@ a:focus {
     position: relative;
     z-index: 3;
 }
+
+@media screen and (max-width: 770px) {
+    #jumbotron {
+        padding: 7.5rem 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #jumbotron {
+        padding: 5.5rem 0;
+    }
+}
 /* Jumbotron section end */
 /* Contact us section start */
 #contact-us {
@@ -340,6 +430,20 @@ a:focus {
     padding-bottom: 3.5rem; 
     padding-right: 4rem;
 }
+
+@media screen and (max-width: 770px) {
+    .contact_form {
+        padding: 3rem 1.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact_info {
+        padding-top: .5rem;
+        padding-bottom: 2rem;
+        padding-right: 1.5rem;
+    }
+}
 /* Contact us section end */
 /* Footer start */
 footer {
@@ -359,6 +463,11 @@ footer li {
 }
 .footer_nav_item {
     margin-right: 1.75rem;
+    font-size: 15px;
+}
+.footer_nav_item:last-child {
+    margin-right: 0;
+    font-weight: 600;
 }
 .footer_sm-links {
     display: flex;
@@ -371,5 +480,31 @@ footer li {
 }
 .footer_sm-link:hover {
     color: #F3D900;
+}
+
+@media screen and (max-width: 770px) {
+    .footer_nav_item {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        display: block;
+    }
+    .footer_nav {
+        float: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer_sm-links {
+        float: none;
+        margin-top: 1rem;
+        padding: 0;
+        justify-content: center;
+    }
+    .footer_nav_item {
+        margin: .5rem 2.4rem!important;
+    }
 }
 /* Footer end */
