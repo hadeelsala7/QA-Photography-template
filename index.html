@@ -23,7 +23,17 @@
               <input type="checkbox" name="" class="menu-toggle" id="menu-toggle">
               <label for="menu-toggle" class="menu-icon"><span class="hamburger"></span></label>
               <ul class="main-nav">
-                <li class="main-nav_item"><a class="main-nav_link" href="#hero">Home</a></li>
+                  <!-- dropdown menu -->
+                  <li class="dropdown main-nav_item">
+                      <a class="dropdown-toggle main-nav_link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="index.html">View 1</a>
+                          <a class="dropdown-item" href="index2.html">View 2</a>
+                          <a class="dropdown-item" href="index3.html">View 3</a>
+                          <a class="dropdown-item" href="index4.html">View 4</a>
+                      </div>
+                  </li>
+                <!-- <li class="main-nav_item"><a class="main-nav_link" href="#hero">Home</a></li> -->
                 <li class="main-nav_item"><a class="main-nav_link" href="#about-us">About us</a></li>
                 <li class="main-nav_item"><a class="main-nav_link" href="#collection">Collection</a></li>
                 <li class="main-nav_item"><a class="main-nav_link btn-accent btn-sm ml-4" href="#contact-us">Get in touch</a></li>
@@ -36,7 +46,7 @@
     <section id="hero">
         <div class="container">
           <div class="hero_content text-center">
-            <h1 class="mb-4">Premium Photos</h1>
+            <h1 class="mb-4">Premium Level</h1>
             <p>Capturing moments as they happen for over ten (10) years and helping clients relive past memories like it was yesterday.</p>
             <button class="btn-accent mt-4">get in touch</button>
           </div>
@@ -54,7 +64,7 @@
                     <button class="btn-accent mt-4">get in touch</button>
                 </div>
                 <div class="col-md-6 mb-5 my-auto">
-                    <img src="image/about-img.png" alt="woman-on-computer" class="about-us_img scroll-left w-100">
+                    <img src="image/about-img.png" alt="woman-on-computer" class="about-us_img scroll-up w-100">
                 </div>
                 <div class="col-md-6 my-5">
                     <img src="image/about-img-2.png" alt="camera-accessories" class="about-us_img scroll-up w-100">
@@ -91,22 +101,22 @@
                 <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
                     <div class="row">
                         <div class="col-md-4 p-2">
-                            <img src="image/collection-img-1.png" alt="woman-in-white-gown" class="collection_img scroll-left w-100">
+                            <img src="image/collection-img-1.png" alt="woman-in-white-gown" class="collection_img scroll-up w-100">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img src="image/collection-img-2.png" alt="man-on-a-beach" class="collection_img scroll-left w-100">
+                            <img src="image/collection-img-2.png" alt="man-on-a-beach" class="collection_img scroll-up w-100">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img src="image/collection-img-3.png" alt="woman-in-white-suit" class="collection_img scroll-left w-100">
+                            <img src="image/collection-img-3.png" alt="woman-in-white-suit" class="collection_img scroll-up w-100">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img src="image/collection-img-4.png" alt="red-shoes-and-bag" class="collection_img scroll-right w-100">
+                            <img src="image/collection-img-4.png" alt="red-shoes-and-bag" class="collection_img scroll-up w-100">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img src="image/collection-img-5.png" alt="man-in-blue" class="collection_img scroll-right w-100">
+                            <img src="image/collection-img-5.png" alt="man-in-blue" class="collection_img scroll-up w-100">
                         </div>
                         <div class="col-md-4 p-2">
-                            <img src="image/collection-img-6.png" alt="man-reading" class="collection_img scroll-right w-100">
+                            <img src="image/collection-img-6.png" alt="man-reading" class="collection_img scroll-up w-100">
                         </div>
                     </div>
                 </div>
