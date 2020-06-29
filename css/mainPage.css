@@ -1,0 +1,275 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+    overflow-x: hidden;
+    font-family:'Montserrat', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+    color:#F3D900
+}
+.photos-h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+}
+li{
+    list-style: none;
+    padding-left: 1vw;
+}
+.nav-title{
+    color: #F3D900;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: -4vh;
+
+    
+}
+#nav-link{
+    color: white ;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+
+.header-button{
+    margin-left: 5vw;
+    background-color: #F3D900 !important ;
+    font-weight: 1000; 
+    width: 190px;
+    height: 50px;
+
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #F3D900;
+
+}
+
+/* *****Header content *****/
+#content{
+    position: relative;
+    background-image: url('../images/first.png');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    
+
+}
+.header-content-top-left{
+    color: white;
+    position: absolute;
+    top: 30vh;
+    left: 4vw;
+
+}
+.header-content-title{
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    font-weight: 1000;
+    position: absolute;
+    top: -13vh;
+}
+.header-content-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #423C3C;
+}
+.header-content-button{
+    border-radius: 10px;
+    line-height: 26px;
+    color: #212121;
+    width:400px;
+    height: 67px;
+    background-color: #F3D900 !important ;
+    font-weight: 1000;
+    font-size: 2em;
+
+}
+.about-content > img{
+    float: right;
+
+   
+}
+.nav-item > a{
+    color: white;
+
+}
+
+.about-button{
+    color: #212121;
+    width:400px;
+    height: 67px;
+    background-color: #F3D900 !important ;
+    font-weight: 1000;
+    font-size: 2em;
+    margin-top: 50vh;
+}
+  
+#hire{
+    position: relative;
+
+}
+
+.hire-h1-centered {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-size: 3em;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.photos-nav li{
+    font-weight: 10;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link hr{
+    border: none;
+}
+.active hr{
+    border-top: 2px solid #F3D900;
+    margin-top: 0;
+}
+.footer-h {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-form{
+    padding-top: 10vh;
+}
+.form-input {
+    height: 15vh;
+}
+.footer-content-button{
+    width:300px;
+    background-color: #F3D900;
+    height: 40px;
+    font-weight: 1000;
+}
+
+@media only screen and (max-width : 1000px){
+  
+  
+}
+@media only screen and (max-width : 400px){
+    .header-content-title{
+        top: -1vh;
+        font-size: 22px;
+    }
+    .header-p{
+        font-size: 16px;
+        top: 5vh;
+        width: 200px;
+    
+    }
+    .header-content-button{
+        width: 100px;
+        height: 30px;  
+        margin-top: 5vh;
+        font-size: 12px;
+  
+    }
+    .about-button{
+        color: #212121;
+        width:200px;
+        height: 40px;
+        background-color: #F3D900 !important ;
+        font-weight: 1000;
+        font-size: 1em;
+        margin-top: 50vh;
+    }
+    .hire-h1-centered{
+        top: 30px;
+        left: 150px;
+        font-size: 10px;
+        margin-top: 30px;
+
+    }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 20vw
+
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+    }
+    .footer-content-button{
+        width: 220px;
+    }
+
+   
+  
+    
+   
+}
+/*** for mobile view**/
+@media only screen and (max-width : 550px){
+    .header-content-title{
+        top: -1vh;
+        font-size: 22px;
+    }
+    .header-p{
+        font-size: 16px;
+        top: 5vh;
+        width: 200px;
+    
+    }
+    .header-content-button{
+        width: 150px;
+        height: 30px;  
+        margin-top: 5vh;
+        font-size: 12px;
+  
+    }
+    .hire-h1-centered{
+        top: 30px;
+        left: 160px;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 20vw
+
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+    }
+    .footer-content-button{
+        width: 220px;
+    }
+
+}
