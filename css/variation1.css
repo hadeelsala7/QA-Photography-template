@@ -587,37 +587,3 @@ footer li {
     }
 }
 /* Footer end */
-
-/* #bt-top {
-    display: none;
-    background-color: #FF9800;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    margin: 30px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s;
-    z-index: 1000;
-}
-
-#bt-top:hover {
-    cursor: pointer;
-    background-color: #333;
-}
-
-#bt-top::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-}
-
-#bt-top.show {
-    display: inline-block;
-} */
