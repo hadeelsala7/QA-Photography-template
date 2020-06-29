@@ -290,7 +290,7 @@ a:focus {
     text-align: center;
 }
 .dropdown-menu.show {
-    margin-left: auto;
+    left: -5rem;
 }
 .dropdown-item {
     margin: 1rem auto;
