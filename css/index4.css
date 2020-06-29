@@ -31,7 +31,7 @@ body{
    }
    to{
        transform: translateX(-100%);
-    }
+   }
 }
 /* HEADER b-g */
 .header__img{
@@ -392,16 +392,13 @@ body{
     width: 100%;
 }
 .footer__social-links{
-    padding: 10px;
+    padding: 5px 10px;
     text-align: center;
 }
 .footer__social-links a{
-    margin: 5px;
+    margin: 0px 5px 5px 5px;
 }
-.footer__social-links a img{
-    width: 13px;
-    height: 15px;
-}
+
 .footer__misc{
     display: flex;
     justify-content: space-evenly;
