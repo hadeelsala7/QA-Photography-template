@@ -72,8 +72,8 @@ li{
 .header-content-top-left{
     color: white;
     position: absolute;
-    top: 30vh;
-    left: 4vw;
+    top: 50vh;
+    left: 5vw;
 
 }
 .header-content-title{
@@ -151,7 +151,7 @@ li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .footer-form{
-    padding-top: 10vh;
+    padding: 100px 100px 50px 50px ;
 }
 .form-input {
     height: 15vh;
@@ -162,10 +162,229 @@ li{
     height: 40px;
     font-weight: 1000;
 }
+footer {
+    background-color: #212020;
+    display: flex;
+    color: #ffffff;
+    padding: 2.75rem 0;
+}
+footer li {
+    list-style: none;
+}
+.footer_nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    float: left;
+}
+.footer_nav_item {
+    margin-right: 1.75rem;
+    font-size: 15px;
+}
+.footer_nav_item:last-child {
+    margin-right: 0;
+    font-weight: 600;
+}
+.footer_sm-links {
+    display: flex;
+    float: right;
+    margin: 0;
+}
+.footer_sm-link {
+    color: #ffffff;
+    margin-left: 1rem;
+}
+.footer_sm-link:hover {
+    color: #F3D900;
+}
 
-@media only screen and (max-width : 1000px){
+
+@media only screen and (max-width : 991px) and (min-width : 750px){
   
+    .header-content-title{
+        top: -2vh;
+        font-size: 2em;
+    }
+    .header-p{
+        font-size: 20px;
+        top: 10vh;
+        width: 500px;
+        left: -10px;
+    
+    }
+    .header-content-button{
+        width: 200px;
+        height: 46px;  
+        margin-top: 9vh;
+        font-size: 12px;
   
+    }
+    .about-button{
+        color: #212121;
+        width:200px;
+        height: 57px;
+        font-size: 1em;
+        margin-top: 40vh;
+        border: #F3D900;
+    }
+    .hire-h1-centered{
+        top: 120px;
+        left: 400px;
+        font-size: 2em;
+        margin-top: 30px;
+
+    }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        padding-left: 10px;
+        text-align: left;
+
+    }
+  
+    .footer-content-button{
+        width: 190px;
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+    }
+    .footer-content-button{
+        width: 220px;
+    }
+
+   
+  
+    
+
+}
+
+@media only screen and (max-width : 749px) and (min-width : 600px){
+  
+    .header-content-title{
+        top: -2vh;
+        font-size: 2em;
+    }
+    .header-p{
+        font-size: 20px;
+        top: 10vh;
+        width: 400px;
+        left: -10px;
+    
+    }
+    .header-content-button{
+        width: 200px;
+        height: 46px;  
+        margin-top: 9vh;
+        font-size: 12px;
+  
+    }
+    .about-button{
+        color: #212121;
+        width:200px;
+        height: 57px;
+        font-size: 1em;
+        margin-top: 40vh;
+        border: #F3D900;
+    }
+    .hire-h1-centered{
+        top: 60px;
+        left: 200px;
+        font-size: 2em;
+        margin-top: 30px;
+
+    }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        text-align: left;
+    }
+    .form-group{
+  
+    }
+  
+    .footer-content-button{
+        width: 190px;
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+
+    }
+    .footer-content-button{
+        width: 220px;
+
+    }
+
+   
+  
+    
+}
+@media only screen and (max-width : 599px) and (min-width : 400px){
+    .header-content-title{
+        top: -4vh;
+        font-size: 22px;
+    }
+    .header-p{
+        font-size: 16px;
+        top: 5vh;
+        width: 300px;
+        left: -10px
+    
+    }
+    .header-content-button{
+        width: 150px;
+        height: 30px;  
+        margin-top: 5vh;
+        font-size: 12px;
+  
+    }
+    .about-button{
+        color: #212121;
+        width:200px;
+        height: 40px;
+        background-color: #F3D900 !important ;
+        font-weight: 1000;
+        font-size: 1em;
+        margin-top: 50vh;
+    }
+    .hire-h1-centered{
+        top: 60px;
+        left: 200px;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+    .footer-h {
+        font-size: 30px;
+    }
+    .footer-form{
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 20vw
+
+    }
+    .form-input {
+        height: 200px;
+        width: 220px;
+    }
+    .footer-labl{
+        width: 220px;
+    }
+    .footer-content-button{
+        width: 220px;
+    }
+
+   
+   
 }
 @media only screen and (max-width : 400px){
     .header-content-title{
@@ -226,50 +445,4 @@ li{
     
    
 }
-/*** for mobile view**/
-@media only screen and (max-width : 550px){
-    .header-content-title{
-        top: -1vh;
-        font-size: 22px;
-    }
-    .header-p{
-        font-size: 16px;
-        top: 5vh;
-        width: 200px;
-    
-    }
-    .header-content-button{
-        width: 150px;
-        height: 30px;  
-        margin-top: 5vh;
-        font-size: 12px;
-  
-    }
-    .hire-h1-centered{
-        top: 30px;
-        left: 160px;
-        font-size: 20px;
-        margin-top: 30px;
 
-    }
-    .footer-h {
-        font-size: 30px;
-    }
-    .footer-form{
-        padding-top: 10vh;
-        text-align: left;
-        padding-left: 20vw
-
-    }
-    .form-input {
-        height: 200px;
-        width: 220px;
-    }
-    .footer-labl{
-        width: 220px;
-    }
-    .footer-content-button{
-        width: 220px;
-    }
-
-}
